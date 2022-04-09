@@ -1,0 +1,14 @@
+[
+  {
+    "username": "user_ivan",
+    "first_name": "Ivan",
+    "last_name": "Ivanov",
+    "email": "ivan@ivan.ru"
+  },
+    {
+    "username": "user_nick",
+    "first_name": "Nick",
+    "last_name": "Ivanov",
+    "email": "nick@nick.ru"
+  }
+]
