@@ -3,7 +3,7 @@ import json
 
 from django.core.management.base import BaseCommand
 
-from library.models import User
+from userapp.models import User
 
 
 JSON_PATH = "library/jsons"
@@ -24,4 +24,4 @@ class Command(BaseCommand):
             new_user = User(**user)
             new_user.save()
 
-        super_user = User.objects.create_superuser("admin", "admin@admin.ru", "admin")
+        super_user = User.objects.create_superuser("admin", "admin@geekshop.local", "123")
